@@ -1,0 +1,47 @@
+.table-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-list .box {
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.table-list .box div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.table-list .box div input {
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.table-list .box div select {
+    padding: 15px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table-list .box div button {
+    border: none;
+    padding: 15px 0;
+    background-color: rgb(246, 188, 79);
+    color: #ffff;
+    cursor: pointer;
+}
+
+.table-list .box div button:active {
+    background-color: rgb(251, 227, 181);
+}
